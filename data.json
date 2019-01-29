@@ -1,0 +1,50 @@
+[
+    {
+        "input": {
+            "sku": "-01.00/-01.00/......",
+            "requisition": {
+                "sphere": -1,
+                "cylinder": -1,
+                "type": "FinishedLens"
+            },
+            "legalEntitySetting": "POSITIVE"
+        },
+        "output": "-02.00/+01.00/......"
+    },
+    {
+        "input": {
+            "sku": "-0.00/-0.00/......",
+            "requisition": {
+                "sphere": 0,
+                "cylinder": 0,
+                "type": "FinishedLens"
+            },
+            "legalEntitySetting": "POSITIVE"
+        },
+        "output": "-00.00/+00.00/......"
+    },
+    {
+        "input": {
+            "sku": "-1.00/+1.00/......",
+            "requisition": {
+                "sphere": -1,
+                "cylinder": 1,
+                "type": "FinishedLens"
+            },
+            "legalEntitySetting": "NEGATIVE"
+        },
+        "output": "+00.00/-01.00/......"
+    },
+    {
+        "input": {
+            "sku": "-01.00/-01.00/......",
+            "requisition": {
+                "sphere": -1,
+                "cylinder": -1,
+                "type": "FinishedLens"
+            },
+            "legalEntitySetting": "NEGATIVE"
+        },
+        "output": "-01.00/-01.00/......"
+    }
+]
