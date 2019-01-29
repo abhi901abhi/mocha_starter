@@ -11,7 +11,7 @@ var transposer = (currentSKUStringValue, jobInfo, legalEntitySetting) => {
         //transposedSKU contains floating numbers//
         transposedSKU = transposeFormula(jobInfo.sphere, jobInfo.cylinder, legalEntitySetting);
         if (transposedSKU.stopAndReturn) {
-            console.log("\x1b[35m", '####  returned original sku string only ####');
+            console.log("\x1b[36m", '####  returned original sku string only ####');
             console.log("\x1b[0m", `............................................................`);
             console.log('OUTPUT:=> ' + currentSKUStringValue);
             console.log('\x1b[33m%s\x1b[0m', '============================================================');
